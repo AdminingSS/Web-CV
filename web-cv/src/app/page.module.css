@@ -1,0 +1,75 @@
+.root {
+  border: 1px solid #14385c;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 40px;
+  background: linear-gradient(to bottom right, #265687, #14385c) ;
+  color: #fff;
+  border-bottom: 2px solid #14385c;
+}
+
+.section {
+  padding: 0 40px;
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  font-size: 32px;
+  color: #265687;
+  border-bottom: 2px solid #265687;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.section h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.section ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.section li::marker {
+  color: #265687;
+}
+
+.caption {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+.description {
+  margin: 5px 0;
+  color: #333;
+}
+
+.stack {
+  font-style: italic;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: center;
+}
+
+.footer {
+  padding: 20px;
+  background: linear-gradient(to top left, #265687, #14385c) ;
+  color: #fff;
+  border-top: 2px solid #14385c;
+}
