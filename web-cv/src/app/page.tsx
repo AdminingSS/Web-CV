@@ -26,10 +26,18 @@ export default function Home() {
       <section className={styles.section}>
         <h2>Work experience</h2>
         <div className={styles.job}>
+          <h3>Coin Lift</h3>
+          <p className={styles.caption}>Frontend engineer</p>
+          <ul>
+            <li className={styles.description}>Frontend architecture and development of a web application for cryptocurrency traders</li>
+          </ul>
+          <p className={styles.description}>Stack: <span className={styles.stack}>NextJS, Typescript, RTK, Tailwind</span></p>
+        </div>
+        <div className={styles.job}>
           <h3>Finotec Asia Corp - Manila</h3>
           <p className={styles.caption}>Frontend developer (3 years)</p>
           <ul>
-            <li className={styles.description}>Development of a robust online casino platform with integrated CMS and CRM capabilities for BTC and BTB markets.</li>
+            <li className={styles.description}>Development of a robust CMS and CRM platform and 10 websites based on it for BTC and BTB markets.</li>
             <li className={styles.description}>Updating and refactoring codebase, integrating the latest technologies to enhance functionality, performance, and user experience.</li>
             <li className={styles.description}>Collaborated with cross-functional teams in an agile environment, using Jira for project management, to ensure timely delivery of updates and improvements.</li>
           </ul>
