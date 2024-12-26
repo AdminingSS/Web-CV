@@ -26,22 +26,42 @@ export default function Home() {
       <section className={styles.section}>
         <h2>Work experience</h2>
         <div className={styles.job}>
+          <h3>Konspire Creative s.r.o.</h3>
+          <p className={styles.caption}>Frontend engineer</p>
+          <ul>
+            <li className={styles.description}>Development of web site and CRM platform for real estate trading
+            </li>
+          </ul>
+          <p className={styles.description}>Stack: <span
+            className={styles.stack}>React, Typescript, React Query, Zustand, WebSocket, Tailwind</span></p>
+        </div>
+        <div className={styles.job}>
           <h3>Coin Lift</h3>
           <p className={styles.caption}>Frontend engineer</p>
           <ul>
-            <li className={styles.description}>Frontend architecture and development of a web application for cryptocurrency traders</li>
+            <li className={styles.description}>Frontend architecture and development of a web application for
+              cryptocurrency traders
+            </li>
           </ul>
-          <p className={styles.description}>Stack: <span className={styles.stack}>NextJS, Typescript, RTK, Tailwind</span></p>
+          <p className={styles.description}>Stack: <span
+            className={styles.stack}>NextJS, Typescript, RTK, Tailwind</span></p>
         </div>
         <div className={styles.job}>
           <h3>Finotec Asia Corp - Manila</h3>
           <p className={styles.caption}>Frontend developer (3 years)</p>
           <ul>
-            <li className={styles.description}>Development of a robust CMS and CRM platform and 10 websites based on it for BTC and BTB markets.</li>
-            <li className={styles.description}>Updating and refactoring codebase, integrating the latest technologies to enhance functionality, performance, and user experience.</li>
-            <li className={styles.description}>Collaborated with cross-functional teams in an agile environment, using Jira for project management, to ensure timely delivery of updates and improvements.</li>
+            <li className={styles.description}>Development of a robust CMS and CRM platform and 10 websites based on it
+              for BTC and BTB markets.
+            </li>
+            <li className={styles.description}>Updating and refactoring codebase, integrating the latest technologies to
+              enhance functionality, performance, and user experience.
+            </li>
+            <li className={styles.description}>Collaborated with cross-functional teams in an agile environment, using
+              Jira for project management, to ensure timely delivery of updates and improvements.
+            </li>
           </ul>
-          <p className={styles.description}>Stack: <span className={styles.stack}>React, Redux, NodeJS, Express/Koa, Webpack, MaterialUI</span></p>
+          <p className={styles.description}>Stack: <span className={styles.stack}>React, Redux, NodeJS, Express/Koa, WebSocket, Webpack, MaterialUI</span>
+          </p>
         </div>
         <div className={styles.job}>
           <h3>Freelance</h3>
@@ -50,7 +70,8 @@ export default function Home() {
             <li className={styles.description}>Websites development from layouts in Figma, Zeplin, Lunacy, PSD.</li>
             <li className={styles.description}>SPA development</li>
           </ul>
-          <p className={styles.description}>Stack: <span className={styles.stack}>JavaScript, CSS, HTML, Webpack, UIkit, Bootstrap, React, PHP</span></p>
+          <p className={styles.description}>Stack: <span className={styles.stack}>JavaScript, CSS, HTML, Webpack, UIkit, Bootstrap, React, PHP</span>
+          </p>
         </div>
       </section>
 
@@ -59,7 +80,8 @@ export default function Home() {
         <div className={styles.education}>
           <h3>Odessa Polytechnic National University</h3>
           <p className={styles.caption}>Specialist degree. Computer systems, Microprocessor electronics (5 years)</p>
-          <p className={styles.description}>Received education covering programming languages such as ASM, C, Delphi, SQL and Java as part of the curriculum.</p>
+          <p className={styles.description}>Received education covering programming languages such as ASM, C, Delphi,
+            SQL and Java as part of the curriculum.</p>
         </div>
       </section>
 
@@ -69,18 +91,18 @@ export default function Home() {
           <p>React</p>
           <p>NodeJS</p>
           <p>REST API</p>
-          <p>Redux</p>
-          <p>Express/Koa</p>
-          <p>Websokets</p>
-          <p>JSS/MaterialUI</p>
-          <p>Git/Gitlab(CI/CD)</p>
-          <p>Github/Vercel</p>
+          <p>Redux / Zustand / Mobx</p>
+          <p>Express / Koa</p>
+          <p>WebSockets</p>
+          <p>CSS / Tailwind / JSS / MaterialUI</p>
+          <p>Git</p>
+          <p>Github / Vercel / Gitlab / Jenkins</p>
           <p>NextJS</p>
           <p>Webpack</p>
           <p>Jira</p>
-          <p>TypeScript</p>
-          <p>MongoDB/Mongoose</p>
-          <p>Mobx</p>
+          <p>TypeScript / JavaScript</p>
+          <p>MongoDB / Mongoose</p>
+          <p>Vue</p>
         </div>
       </section>
 
