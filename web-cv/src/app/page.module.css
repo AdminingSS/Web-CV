@@ -7,8 +7,8 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
-  padding: 40px;
+  margin-bottom: 20px;
+  padding: 20px 40px;
   background: linear-gradient(to bottom right, #265687, #14385c) ;
   color: #fff;
   border-bottom: 2px solid #14385c;
@@ -36,6 +36,7 @@
 .section ul {
   list-style-type: square;
   padding-left: 20px;
+  margin: 10px 0;
 }
 
 .section li::marker {
@@ -49,7 +50,7 @@
 }
 
 .job {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .description {

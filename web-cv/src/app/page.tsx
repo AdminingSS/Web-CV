@@ -12,15 +12,15 @@ export default function Home() {
           <p>LinkedIn: <a href="https://www.linkedin.com/in/andrey-sartek/">https://www.linkedin.com/in/andrey-sartek/</a></p>
           <p>Email: <a href="mailto:spetsakk1@gmail.com">spetsakk1@gmail.com</a></p>
           <p>Djinni: <a href="https://djinni.co/q/1570333d0e/">https://djinni.co/q/1570333d0e/</a></p>
-          <p>Phone: <a href="tel:+380931569801">+38 (093) 156-98-01</a></p>
+          {/*<p>Phone: <a href="tel:+380931569801">+38 (093) 156-98-01</a></p>*/}
           <p>Location: Odesa, Ukraine</p>
         </div>
       </header>
 
       <section className={styles.section}>
         <h2>About me</h2>
-        <p className={styles.caption}>Frontend Developer with more than 5 years of experience.</p>
-        <p>Skilled in building responsive and user-friendly web applications. Proficient in modern frontend technologies and frameworks, with a strong background in turning design concepts into high-quality code. Adept at collaborating in agile environments and committed to continuous learning and improvement.</p>
+        <p className={styles.caption}>Frontend Developer with 5+ years of experience in building scalable, responsive web applications.</p>
+        <p>Proficient in modern frameworks and technologies, focused on writing clean, maintainable code. Strong expertise in translating design specifications into functional interfaces and delivering features in agile environments.</p>
       </section>
 
       <section className={styles.section}>
